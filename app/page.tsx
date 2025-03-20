@@ -12,9 +12,9 @@ export default function ChatPage() {
     id: '12345',
     name: 'OpenAssistantGPT',
 
-    chatTitle: 'Chat with OpenAssistantGPT',
+    chatTitle: 'Chat with Plantz Agent',
     welcomeMessage:
-      "Welcome to OpenAssistantGPT! 🚀 I'm your AI assistant, crafted using this platform. How may I assist you today?",
+      "Welcome to Plantz Agent! I can answer questions about medical cannabis. How may I assist you today?",
     chatMessagePlaceHolder: 'Ask us any question...',
 
     rightToLeftLanguage: false,
@@ -39,8 +39,8 @@ export default function ChatPage() {
     chatFileAttachementEnabled: true,
     //fontSize: '14px',
     displayFooterText: true,
-    footerLink: 'https://www.openassistantgpt.io',
-    footerTextName: 'OpenAssistantGPT',
+    footerLink: 'https://www.plantz.io',
+    footerTextName: 'Plantz Agent',
 
     fontSize: '14px',
 
@@ -70,10 +70,10 @@ export default function ChatPage() {
             className="w-full bg-white"
             variant="outline"
             onClick={() =>
-              setDefaultMessage('How many chatbot can I created on free plan?')
+              setDefaultMessage('How do I get a medical cannabis prescription?')
             }
           >
-            How many chatbot can I created on free plan?
+            How do I get a medical cannabis prescription
           </Button>
         ),
         count == 0 && (
@@ -81,9 +81,9 @@ export default function ChatPage() {
             key="2"
             className="w-full bg-white"
             variant="outline"
-            onClick={() => setDefaultMessage('How to create a chatbot?')}
+            onClick={() => setDefaultMessage('Am I eligible for medical cannabis?')}
           >
-            How to create a chatbot?
+            Am I eligible for medical cannabis
           </Button>
         ),
         count == 0 && (
@@ -92,10 +92,10 @@ export default function ChatPage() {
             className="w-full bg-white"
             variant="outline"
             onClick={() =>
-              setDefaultMessage('How to integrate chatbot in website?')
+              setDefaultMessage('Is medical cannabis legal in the UK?')
             }
           >
-            How to integrate chatbot in website?
+            Is medical cannabis legal in the UK
           </Button>
         ),
         count == 0 && (
@@ -103,9 +103,9 @@ export default function ChatPage() {
             key="4"
             className="w-full bg-white"
             variant="outline"
-            onClick={() => setDefaultMessage('What is a SDK?')}
+            onClick={() => setDefaultMessage('How much does medical cannabis cost?')}
           >
-            What is a SDK?
+            How much does medical cannabis cost
           </Button>
         ),
       ]}
